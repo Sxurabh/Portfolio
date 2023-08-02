@@ -69,10 +69,10 @@ color: rgb(128, 79, 128);
 }
 
 .btn {
-  font-size:11px;
+  font-size:15px;
   font-family: 'Nanum Gothic Coding', monospace;
-  width:100px;
-  height:30px;
+  width:140px;
+  height:40px;
   border-width:0px;
   color:rgba(252, 252, 252, 1);
   border-color:rgba(77, 47, 77, 1);
