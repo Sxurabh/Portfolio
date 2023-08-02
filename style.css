@@ -162,7 +162,8 @@ nav {
     padding-top: 15px;
   }
   .v-class{
-opacity: 0;
+    visibility: hidden;
+
   }
   
 
