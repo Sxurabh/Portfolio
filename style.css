@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: 'Nanum Gothic Coding', monospace;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 71px;
+    background-color: #3E3E3E;
+    padding: 0px 75px;
+    margin: 0 auto;
+  }
+  nav ul {
+    display: flex;
+   
+    font-size: 1.5rem;
+  }
+  nav ul li{
+      list-style: none;
+      margin: 0 23px;
+      font-size: 1.1rem;
+      letter-spacing: 1.1px;
+  }
+  nav ul li a{
+     text-decoration: none;
+     color: white; 
+  }
+  nav ul li a:hover {
+     color: rgb(128, 79, 128);
+    
+  }
+  .left {
+      font-size: 2rem;
+  }
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0px;
+  align-items: center;
+}
+.firstSection >div {
+ width: 30%;
+}
+.leftSection{
+
+  font-size: 2rem;
+  letter-spacing: 2px;
+  
+ 
+  
+}
+.rightSection img{
+  width: 69%;
+  height: 106%;
+  margin: 0px 90px;
+
+}
+.purple{
+color: rgb(128, 79, 128);
+}
+#element{
+  color:rgb(128, 79, 128);
+}
+
+.btn {
+  font-size:11px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  width:100px;
+  height:30px;
+  border-width:0px;
+  color:rgba(252, 252, 252, 1);
+  border-color:rgba(77, 47, 77, 1);
+  border-top-left-radius:29px;
+  border-top-right-radius:29px;
+  border-bottom-left-radius:29px;
+  border-bottom-right-radius:29px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:rgba(128, 79, 128, 1);
+}
+
+.btn:hover {
+  background: rgba(178, 109, 178, 1)
+}
+.buttonDiv{
+  padding-top: 20px;
+}
+
+/*  Hamburger Menu styles */
+.burger{
+  display: none;
+}
+     
+.line{
+  width: 35px;
+  background-color: white;
+  height: 3px;
+  margin: 6px 5px;
+} 
+     /* ---------------------------- */   
+
+/* <--------------------Responsiveness--------------------> */
+@media (min-width: 300px ) and (max-width: 700px) {
+nav {
+    
+   flex-direction: column;
+    
+ height: 220px;
+
+}
+.navbar{
+  height: 65px;
+}
+  
+  nav ul li{
+    flex-direction: column;
+    
+    height: 41px;
+    /* display: none; */
+}
+.right{
+  align-items: center;
+}
+.navList{
+  padding-top: 25px;
+  flex-direction: column;
+  align-items: center;
+  /* height: 40px; */
+  /* display: none; */
+}
+.navbar{
+  flex-direction: column;
+}
+  .left {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+  .rightSection img{
+    width: 100%;
+    height: 92%;
+    margin: 0px 0px;
+  
+  }
+  .leftSection{
+    font-size: large
+  }
+ /*  Hamburger Menu styles */
+  .burger{
+    display: inline;
+    position: absolute;
+    cursor: pointer;
+    right: 9%;
+    padding-top: 15px;
+  }
+  .v-class{
+opacity: 0;
+  }
+  
+
+   
+}
