@@ -1,0 +1,91 @@
+/* <--------------------Responsiveness--------------------> */
+@media only screen and (max-width: 1140px) {
+    nav {
+        
+       flex-direction: column;
+        height: 220px;
+        transition: all 0.1s ease-out ;
+        transition-delay: 0.1s;
+    
+    }
+    .navbar{
+      height: 65px;
+      
+    }
+      
+      nav ul li{
+        flex-direction: column;
+        
+        
+        height: 41px;
+        /* display: none; */
+    }
+    .right{
+      align-items: center;
+    }
+    .navList{
+      padding-top: 10px;
+      flex-direction: column;
+      align-items: center;
+      transition-delay: 0.1s;
+      
+      /* height: 40px; */
+      /* display: none; */
+    }
+    .navbar{
+      flex-direction: column;
+    }
+      .left {
+        padding-top: 20px;
+        font-size: 1.5rem;
+    }
+      .rightSection img{
+        width: 100%;
+        height: 92%;
+        margin: 0px 0px;
+      
+      }
+      .leftSection{
+        font-size: large
+      }
+     /*  Hamburger Menu styles */
+      .burger{
+        display: inline;
+        position: absolute;
+        cursor: pointer;
+        right: 9%;
+        padding-top: 15px;
+      }
+      .v-class{
+        visibility: hidden;
+    
+      }
+      
+      nav ul li a {
+        color: #fff;
+       
+        text-decoration: none;
+        
+        
+        display: inline-block;
+        padding: 15px 0px;
+        position: relative;
+      }
+      nav ul li a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      nav ul li a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+       
+    }
