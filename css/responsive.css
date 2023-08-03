@@ -48,6 +48,22 @@
       .leftSection{
         font-size: large
       }
+      .leftSection2 img{
+        width: 70%;
+        
+        margin: 0px 25px;
+        
+      
+      }
+     /*  .secondSection{
+        height: 60vh;
+      } */
+      .rightSection2{
+        width: 45%;
+        height: 55%;
+        font-size: 0.7rem;
+        text-align: center;
+      }
      /*  Hamburger Menu styles */
       .burger{
         display: inline;

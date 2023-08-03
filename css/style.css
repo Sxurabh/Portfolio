@@ -58,6 +58,17 @@
   
 
 }
+.leftSection2 img{
+  width: 60%;
+  
+
+}
+.rightSection2{
+  width: 35%;
+  height: 92%;
+  font-size: 1.5rem;
+  text-align: center;
+}
 .purple{
 color: rgb(128, 79, 128);
 }
@@ -85,8 +96,11 @@ color: rgb(128, 79, 128);
   background: rgba(178, 109, 178, 1)
 }
 .buttonDiv{
+  
   padding-top: 20px;
 }
+
+
 
 /*  Hamburger Menu styles */
 .burger{
@@ -135,12 +149,7 @@ nav ul li a:hover:after {
   height: 80vh;
 
 }
-.rightSection2{
-  background-color: #2f6627;
-}
-.leftSection2{
-  background-color: aqua;
-}
+
 
      /* ---------------------------- */   
 
