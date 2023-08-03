@@ -75,6 +75,16 @@ color: rgb(128, 79, 128);
 #element{
   color:rgb(128, 79, 128);
 }
+.projectHeader{
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 10px;
+}
+.projects{
+  height: 70vh  ;
+  width: auto;
+}
 
 .btn {
   font-size:15px;
