@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![Portfolio Website](screenshot.png)
+![Portfolio Website](./Demon-Slayer-PNG-Picture.png)
 
 Welcome to my portfolio website GitHub repository. This repository contains the source code for my personal portfolio website.
 
